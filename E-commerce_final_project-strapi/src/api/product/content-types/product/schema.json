@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Out of stock",
+        "In stock"
+      ]
+    },
+    "product_code": {
+      "type": "integer"
+    },
+    "previous_price": {
+      "type": "integer"
+    },
+    "key_Features": {
+      "displayName": "key_features",
+      "type": "component",
+      "repeatable": false,
+      "component": "product.key-features"
+    },
+    "Description": {
+      "displayName": "Description",
+      "type": "component",
+      "repeatable": true,
+      "component": "product.description"
+    },
+    "stock_product": {
+      "type": "integer"
+    }
+  }
+}

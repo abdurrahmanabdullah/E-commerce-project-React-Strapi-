@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_hero_cards",
+  "info": {
+    "displayName": "Hero-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

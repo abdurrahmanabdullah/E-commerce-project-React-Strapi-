@@ -1,0 +1,51 @@
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-container {
+  text-align: center;
+}
+
+.confirmation-box {
+  padding: 20px;
+ 
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: space-around;
+   padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add some space between buttons and columns */
+}
+
+.button-container button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+/* */

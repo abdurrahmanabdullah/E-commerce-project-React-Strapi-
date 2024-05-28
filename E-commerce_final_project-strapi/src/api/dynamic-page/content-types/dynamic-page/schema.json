@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dynamic_pages",
+  "info": {
+    "singularName": "dynamic-page",
+    "pluralName": "dynamic-pages",
+    "displayName": "dynamicPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.content"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.element"
+    },
+    "productDescription": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.blog"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

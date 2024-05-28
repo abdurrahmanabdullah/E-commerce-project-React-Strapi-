@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_card_content_cart_contents",
+  "info": {
+    "displayName": "cart-content"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

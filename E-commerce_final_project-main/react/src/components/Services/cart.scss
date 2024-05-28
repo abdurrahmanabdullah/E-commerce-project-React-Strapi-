@@ -1,0 +1,31 @@
+.home-card-container {
+
+  display: flex;
+  justify-content: center;
+}
+
+.home-card {
+  width: 80%;
+  
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0.1, 0.4, 0.4, 0.1);
+  transition: box-shadow 0.5s ease;
+  background-color: #fff;
+  margin: 10px; /* Add margin to create gap between cards */
+}
+
+.home-card:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.home-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.home-card p {
+  margin-bottom: 10px;
+}
+
+

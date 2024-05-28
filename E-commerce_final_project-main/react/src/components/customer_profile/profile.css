@@ -1,0 +1,102 @@
+.account-profile {
+  display: flex;
+  align-items: center;
+ margin-top: 3%;
+ margin-left: 15%;
+ padding-bottom: 120px;
+}
+
+.profile-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  margin-left: 120px;
+  
+}
+
+.greeting,
+.name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.order-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+
+.order-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.order-text {
+  font-size: 16px;
+}
+
+
+.order-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 9rem; /* Make it square */
+  height: 7rem; /* Make it square */
+  background-color: #f0f0f0; /* Light grey background */
+  border: 2px solid #ccc; /* Light grey border */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+  cursor: pointer;
+  text-align: center;
+}
+
+.order-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.order-icon {
+  font-size: 50px; 
+  color: #333; 
+  margin-bottom: 10px; 
+}
+
+.profile_card {
+  display: flex; 
+  justify-content: center; 
+  align-items: flex-start; 
+  gap: 2%;
+}
+
+.app{
+
+  margin-bottom: 220px;
+}
+
+
+.logout-container {
+  position: relative;
+}
+
+.logout-message {
+  position: absolute;
+  bottom: -90px; /* Adjust this value as needed to position the message above or below the card */
+  right: 0;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}

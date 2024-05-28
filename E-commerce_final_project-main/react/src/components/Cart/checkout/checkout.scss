@@ -1,0 +1,75 @@
+.customer-form {
+  max-width: 400px;
+  margin: 0 auto;
+
+    padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+  
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+button[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type='submit']:hover {
+  background-color: #45a049;
+}
+////----------------------oder summary
+
+.order-summary-card {
+ 
+  /* Style the card here */
+  background-color: #f5f5f5; /* Light gray background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+   padding: 30px;
+  //  margin: 10px 0; /* Add some margin for spacing */
+  margin-right: 40px;
+  margin-top: 80px;
+}
+
+.order-summary-card p {
+  margin: 5px 0; /* Add margin between paragraphs */
+  font-family: "Roboto-Regular", "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  display: inline-block; 
+ 
+}
+
+.order-summary-card p span {
+  margin-left: 30px; /* Adjust the space as needed */
+}
+
+
+

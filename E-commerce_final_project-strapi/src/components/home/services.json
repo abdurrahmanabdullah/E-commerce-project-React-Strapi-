@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_services",
+  "info": {
+    "displayName": "services"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "card2": {
+      "displayName": "card2",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.card2"
+    }
+  }
+}

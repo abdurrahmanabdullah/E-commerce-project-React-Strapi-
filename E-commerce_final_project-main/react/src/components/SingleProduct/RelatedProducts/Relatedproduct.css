@@ -1,0 +1,42 @@
+/* .product-item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+
+.card-title {
+  margin-top: 10px;
+  font-size: 18px;
+} */
+.product-item {
+  margin-top: 15%;
+  /* height: 250px; */
+  height: 16rem;
+  width: 13rem;
+  border: 1px solid lightblue;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.product-item img {
+  width: 80%;
+  height: auto;
+}
+
+.product-item h3 {
+  margin-left: 15px; /* Adjust as needed */
+}
+.product-item:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+}

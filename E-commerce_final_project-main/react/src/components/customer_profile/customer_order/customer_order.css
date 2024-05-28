@@ -1,0 +1,62 @@
+.order-details {
+  display: flex;
+  flex-direction: row;
+ padding: 5%;
+}
+
+.order-item-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px; /* Adjusted padding */
+  margin-bottom: 20px; /* Adjusted margin */
+}
+
+.order-item-card p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.order-item-card strong {
+  font-weight: bold;
+}
+
+.order-item-card p + p {
+  margin-top: 10px;
+}
+
+.buton {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 10px 20px; /* Adjusted padding for smaller button size */
+   /* Space above the button */
+  align-self: flex-start; /* Align button to the start (left) */
+}
+
+.buton:hover {
+  background-color: #c0392b;
+}
+
+.order-details h2 {
+  margin-bottom: 20px;
+}
+
+.order-details p {
+  font-size: 16px;
+  color: #333;
+}
+
+.status_button{
+
+     display: flex;
+     margin-top: 15%;
+     gap: 120px;
+     margin-left: 120px;
+}
+
+
+

@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_reports",
+  "info": {
+    "singularName": "order-report",
+    "pluralName": "order-reports",
+    "displayName": "OrderReport",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Mobile": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Zone": {
+      "type": "string"
+    },
+    "Comment": {
+      "type": "text"
+    },
+    "orderId": {
+      "type": "customField",
+      "options": {
+        "uuid-format": "^[0-9]{5}$"
+      },
+      "customField": "plugin::strapi-advanced-uuid.uuid"
+    },
+    "OrderList": {
+      "type": "json"
+    },
+    "OrderItem": {
+      "type": "text"
+    },
+    "ConfirmOrder": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
